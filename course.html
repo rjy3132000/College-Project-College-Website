@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Course</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/44a8029e75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="./index.html"><img src="./img/logo1.png" alt="Anand Vishwa Gurukul"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <!-- <li><a href="./course.html">Course</a></li> -->
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+            
+    </section>
+
+       <!-- --------Course------------- -->
+   <section class="course">
+    <h1>Courses We Offers</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermidiate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur quasi similique, eligendi nostrum obcaecati, unde distinctio ipsam placeat ipsum sequi eveniet deserunt quis commodi dicta molestias sunt inventore harum!
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur quasi similique, eligendi nostrum obcaecati, unde distinctio ipsam placeat ipsum sequi eveniet deserunt quis commodi dicta molestias sunt inventore harum!
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduations</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur quasi similique, eligendi nostrum obcaecati, unde distinctio ipsam placeat ipsum sequi eveniet deserunt quis commodi dicta molestias sunt inventore harum!
+            </p>
+        </div>
+    </div>
+</section>
+
+
+  <!-- ----------------Facilities----------------- -->
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="./img/Library_01.jpg" alt="">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum distinctio ea cum facilis perspiciatis amet iure!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./img/PlayGround_01.jpg" alt="">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum distinctio ea cum facilis perspiciatis amet iure!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./img/Canteen_01.png" alt="">
+            <h3>Tasty and Healthy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum distinctio ea cum facilis perspiciatis amet iure!</p>
+        </div>
+    </div>
+</section>
+
+    <!-- -----------Footer------------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> voluptates expedita placeat non facere excepturi!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-google-plus"></i>
+            <p>Made With <i class="fas fa-heartbeat"></i> Rajesh</p>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
